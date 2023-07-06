@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Pokeinfo from "./Pokeinfo";
 import axios from "axios"
-import SearchBar from "./SearchBar";
+import { SearchBar } from "./SearchBar";
 
 const Main = () => {
     const [pokeData, setPokeData] = useState([]);
