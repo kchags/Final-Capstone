@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Main from './Components/Main';
 import './Components/style.css';
 import { SearchBar } from "./Components/SearchBar";
-import { SearchResultsList } from "./Components/SearchResultsList";
+import SearchResultsList from 'react'
+import "./App.css";
 
 function App() {
   const [results, setResults] = useState([]);
@@ -20,9 +21,3 @@ function App() {
 }
 
 export default App; 
-
-//something in here is breaking the app and i dont know why please help!!
-// Compiled with problems:
-// ×
-// ERROR in ./src/App.jsx 9:0-67
-// Module not found: Error: Can't resolve './Components/SearchResultsList' in '/Users/kevinchagas/Projects/Capstone/Pokemon/src'

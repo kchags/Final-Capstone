@@ -12,6 +12,7 @@ export const SearchBar = ({ setResults }) => {
         const results = json.filter((user) => {
             //every time i type in the search bar i get an error saying that json.filter is not a function
             //whenever i click a pokemon card, i cant click in the search bar after. i have to refresh to click in the search bar
+            //i am getting two search bars. one up top and one on the bottom. the search bar at the bottom is not having the issue where i click on a card and i can't click back into the search bar. but both search bars have the json.filter is not a function error.
           return (
             value &&
             user &&

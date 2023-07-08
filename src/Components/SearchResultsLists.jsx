@@ -10,4 +10,3 @@ export const SearchResultsList = ({ results }) => {
     </div>
   );
 };
- // for some reason this code is not working properly, it cant resolve
