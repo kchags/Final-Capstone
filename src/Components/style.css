@@ -1,27 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     background-color: lightskyblue;
 }
-.container{
+
+.container {
     width: 90%;
     margin: auto;
     padding-top: 100px;
     display: flex;
 }
-.left-content,.right-content{
+
+.left-content,
+.right-content {
     flex-basis: 50%;
 }
-.left-content{
+
+.left-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
     grid-gap: 2rem;
 }
-.card{
+
+.card {
     width: 300px;
     background-color: beige;
     border-radius: 1rem;
@@ -32,7 +39,8 @@ body{
     justify-content: space-between;
     box-sizing: border-box;
 }
-.right-content{
+
+.right-content {
     width: 50%;
     text-align: center;
     color: black;
@@ -40,16 +48,19 @@ body{
     top: 100px;
     right: 10px;
 }
-.right-content img{
+
+.right-content img {
     margin: 2rem;
     height: 180px;
 }
-.right-content h1{
+
+.right-content h1 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.abilities{
+
+.abilities {
     width: 70%;
     margin: auto;
     display: flex;
@@ -58,7 +69,7 @@ body{
     margin-top: 1rem;
 }
 
-.abilities .group{
+.abilities .group {
     background-color: orangered;
     color: white;
     padding: 0.5rem;
@@ -66,15 +77,18 @@ body{
     border-radius: 8px;
     margin-left: 1rem;
 }
-.base-stat{
+
+.base-stat {
     margin-top: 2rem;
 
 }
-.btn-group{
+
+.btn-group {
     display: flex;
 
 }
-.btn-group button{
+
+.btn-group button {
     outline: none;
     border: none;
     width: 150px;
@@ -85,4 +99,15 @@ body{
     color: white;
     background-color: orangered;
     border-radius: 8px;
+}
+
+.types {
+    background-color: orangered;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+    width: 10%;
+    margin: auto;
 }

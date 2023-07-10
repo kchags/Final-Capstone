@@ -6,7 +6,7 @@ export const SearchBar = ({ setResults }) => {
   const [input, setInput] = useState("");
 
   const fetchData = (value) => {
-    fetch("https://pokeapi.co/api/v2/pokemon/")
+    fetch("https://pokeapi.co/api/v2/")
       .then((response) => response.json())
       .then((json) => {
         const results = json.filter((user) => {
