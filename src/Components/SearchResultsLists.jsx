@@ -1,7 +1,7 @@
-import "./SearchResultsList.css";
+import "./SearchResultsLists.css";
 import { SearchResult } from "./SearchResult";
 
-export const SearchResultsList = ({ results }) => {     
+export const SearchResultsLists = ({ results }) => {     
   return (
     <div className="results-list">
       {results.map((result, id) => {
@@ -10,3 +10,5 @@ export const SearchResultsList = ({ results }) => {
     </div>
   );
 };
+
+export default SearchResultsLists;

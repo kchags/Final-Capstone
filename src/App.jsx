@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Main from './Components/Main';
 import './Components/style.css';
-import { SearchBar } from "./Components/SearchBar";
+import SearchBar from './Components/SearchBar';
 import SearchResultsList from 'react'
 import "./App.css";
 
